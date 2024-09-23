@@ -4,7 +4,7 @@
 --------
 
 ## Q1: Provide a list of at least 1, and at most the top 5, recommended products for each of the users found below:
-Notes:
+### Notes:
 - I used cosine similarity using collaborative filtering for this for just users. (aka user-user collab filtering).
 - Here we may note that there aren't necessarily enough products bought on average by users that are similar enough (overlapping) (the average comes out to about ~11 ish per user)
     - There are 32k unique users and 320k unique products, so the overlap is tinyyyy
@@ -27,7 +27,7 @@ For those two, I'd honestly just recommend the top 5 purchased products (and rat
 
 --------
 
-Q1:
+## Q1:
 ### userId: B00DGW1SFK
 | productId      |  similarity |
 | -------------- | ----------- |
