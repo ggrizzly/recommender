@@ -1,8 +1,9 @@
-# recommender
-Recommender for user / product / rating data, with EDA + algorithms
+# User-Product Recommender
+> Recommender for user / product / rating data, with EDA + algorithms
 
-> Q1: Provide a list of at least 1, and at most the top 5, recommended products for each of the users found below:
+--------
 
+# Q1: Provide a list of at least 1, and at most the top 5, recommended products for each of the users found below:
 Notes:
 - I used cosine similarity using collaborative filtering for this for just users. (aka user-user collab filtering).
 - Here we may note that there aren't necessarily enough products bought on average by users that are similar enough (overlapping) (the average comes out to about ~11 ish per user)
@@ -13,6 +14,7 @@ Notes:
 My recommendation for these particular users, would be given the sparsity matrix, if their similarity is low, we should just recommend the most popular objects to start.
 
 For example, see below, I've conducted collab. filtering, and 2 of the users don't have super clear reccomendations (B00HFF691C, B017F8361O)
+
 For those two, I'd honestly just recommend the top 5 purchased products (and rated high (>=4)) (The classic "See what others are buying!" on Amazon). These namely are:
 
 | productId      |  number bought |
@@ -34,8 +36,7 @@ For those two, I'd honestly just recommend the top 5 purchased products (and rat
 | A3KPMMEYYH8EGM |    0.172414 |
 
 
-### userId: B00HFF691C
-#### XXX HERE I WOULD REPLACE THIS ONE WITH TOP PURCHASED AND RATED PRODUCTS XXX
+### userId: B00HFF691C - HERE I WOULD REPLACE THIS ONE WITH TOP PURCHASED AND RATED PRODUCTS
 | productId      |  similarity |
 | -------------- | ----------- |
 | A1W6AL80O62QZM |    0.172414 |
@@ -45,8 +46,7 @@ For those two, I'd honestly just recommend the top 5 purchased products (and rat
 | AIA7Q13PWP1LI  |    0.172414 |
 
 
-### userId: B017F8361O
-#### XXX HERE I WOULD REPLACE THIS ONE WITH TOP PURCHASED AND RATED PRODUCTS XXX
+### userId: B017F8361O - HERE I WOULD REPLACE THIS ONE WITH TOP PURCHASED AND RATED PRODUCTS
 | productId      |  similarity |
 | -------------- | ----------- |
 | ALW6C3AV7847A  |    0.172414 |
@@ -75,7 +75,9 @@ For those two, I'd honestly just recommend the top 5 purchased products (and rat
 | A17DKZHKTO2B24 |    0.344828 |
 | A3S2TK8BDV81FE |    0.344828 |
 
-> Q2: Assume you have a new user with no historical information on them. What product would you recommend if they purchased a product from the list below and rated it highly (5/5). Please provide a list of top recommendations for each of the products below.
+--------
+
+# Q2: Assume you have a new user with no historical information on them. What product would you recommend if they purchased a product from the list below and rated it highly (5/5). Please provide a list of top recommendations for each of the products below.
 
 Notes:
 - Sparsity in buying items may have an impact. For example, in the first case, the cosine similarity of items is fine, but the fact that only one other person has bought it or the fact that it's just ONE product is probably not enough.
