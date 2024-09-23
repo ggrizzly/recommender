@@ -1,6 +1,15 @@
 # User-Product Recommender
 > Recommender for user / product / rating data, with EDA + algorithms
 
+## Files in this project:
+- `main_GrowTherapy.ipynb` - Main working jupyter notebook file <- all the juicy stuff in here
+- `requirements.txt` - python packages I used
+- `cosine_sim.c` - C cosine similarity
+- `data_backup/*` - Contains some of the data files saved during the time of building this. Everything was in one directory, so the jupyter notebook may not work without moving the files back into the main dir `:)`
+- `apriori.ipynb` - The beginnings of the apriori algorithm
+- `use_case.pdf` - The problem statements
+- `wip_c_algs` - other variations of the c alg I built, but with multi-threading, for specific items as well.
+
 --------
 
 ## Q1: Provide a list of at least 1, and at most the top 5, recommended products for each of the users found below:
