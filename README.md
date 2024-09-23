@@ -79,9 +79,9 @@ For those two, I'd honestly just recommend the top 5 purchased products (and rat
 
 --------
 
-# Q2: Assume you have a new user with no historical information on them. What product would you recommend if they purchased a product from the list below and rated it highly (5/5). Please provide a list of top recommendations for each of the products below.
+## Q2: Assume you have a new user with no historical information on them. What product would you recommend if they purchased a product from the list below and rated it highly (5/5). Please provide a list of top recommendations for each of the products below.
 
-Notes:
+### Notes:
 - Sparsity in buying items may have an impact. For example, in the first case, the cosine similarity of items is fine, but the fact that only one other person has bought it or the fact that it's just ONE product is probably not enough.
 - To this end, I've tried hybrid techniques as well:
     - natural log of popularity metrics as the lambda weight for cosine similarity, 
