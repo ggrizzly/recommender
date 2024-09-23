@@ -2,7 +2,7 @@
 > Recommender for user / product / rating data, with EDA + algorithms
 
 ## Files in this project:
-- `main_GrowTherapy.ipynb` - Main working jupyter notebook file <- all the juicy stuff in here
+- `main.ipynb` - Main working jupyter notebook file <- all the juicy stuff in here
 - `requirements.txt` - python packages I used
 - `cosine_sim.c` - C cosine similarity
 - `data_backup/*` - Contains some of the data files saved during the time of building this. Everything was in one directory, so the jupyter notebook may not work without moving the files back into the main dir `:)`
