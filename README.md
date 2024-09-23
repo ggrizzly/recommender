@@ -103,52 +103,52 @@ For the following items, I included:
 Here, the tables are sorted in order of hybrid_cf_weighted_by_popularity (aka the formula I gave above). Some of the regular product-product collab. filtering returned really low connective data, so the weighing absolutely helps in that regard, balancing product relationships, popularity, and products bought by similar users.
 
 ### item: A696ZTE6VBU4U
-| productId      | counts | product_cf | hybrid_cf | product_cf_weighted_by_popularity | **hybrid_cf_weighted_by_popularity** |
-| -------------- | ------ | ---------- | --------- | --------------------------------- | ------------------------------------ |
-| AFNGCFXDPE55P  |      6 |   0.272166 |  0.523849 |                          0.925689 |                       **1.781715** * |
-| AILBHLCU1VM03  |      3 |   0.410305 |  0.620547 |                          1.082818 |                       **1.637659** * |
-| A2WXKLHX5SQC3  |     10 |   0.105409 |  0.240453 |                          0.412363 |                       **0.940658** * |
-| A1UX6MRX503HNP |      4 |   0.192450 |  0.301382 |                          0.576529 |                       **0.902859** * |
-| A3JLDJMZ4FVG96 |      4 |   0.192450 |  0.301382 |                          0.576529 |                       **0.902859** * |
+| productId      | **hybrid_cf_weighted_by_popularity** | counts | product_cf | hybrid_cf | product_cf_weighted_by_popularity |
+| -------------- | ------------------------------------ | ------ | ---------- | --------- | --------------------------------- |
+| AFNGCFXDPE55P  |                       **1.781715** * |      6 |   0.272166 |  0.523849 |                          0.925689 |
+| AILBHLCU1VM03  |                       **1.637659** * |      3 |   0.410305 |  0.620547 |                          1.082818 |
+| A2WXKLHX5SQC3  |                       **0.940658** * |     10 |   0.105409 |  0.240453 |                          0.412363 |
+| A1UX6MRX503HNP |                       **0.902859** * |      4 |   0.192450 |  0.301382 |                          0.576529 |
+| A3JLDJMZ4FVG96 |                       **0.902859** * |      4 |   0.192450 |  0.301382 |                          0.576529 |
 
 
 ### item: A6CEOJ5ISIGRB
-| productId      | counts | product_cf | hybrid_cf | product_cf_weighted_by_popularity | **hybrid_cf_weighted_by_popularity** |
-| -------------- | ------ | ---------- | --------- | --------------------------------- | ------------------------------------ |
-| AROYPRQ35VSAT  |      7 |   0.912871 |  1.472343 |                          3.245574 |                       **5.234692** * |
-| A2IGYO5UYS44RW |      6 |   1.000000 |  1.533333 |                          3.401197 |                       **5.215169** * |
-| A3UXFQUZ6P1JRB |      6 |   1.000000 |  1.533333 |                          3.401197 |                       **5.215169** * |
-| A165FHUTQU6L2Z |      6 |   1.000000 |  1.533333 |                          3.401197 |                       **5.215169** * |
-| A2RWJPXMBFGCF0 |      6 |   1.000000 |  1.533333 |                          3.401197 |                       **5.215169** * |
+| productId      | **hybrid_cf_weighted_by_popularity** | counts | product_cf | hybrid_cf | product_cf_weighted_by_popularity |
+| -------------- | ------------------------------------ | ------ | ---------- | --------- | --------------------------------- |
+| AROYPRQ35VSAT  |                       **5.234692** * |      7 |   0.912871 |  1.472343 |                          3.245574 |
+| A2IGYO5UYS44RW |                       **5.215169** * |      6 |   1.000000 |  1.533333 |                          3.401197 |
+| A3UXFQUZ6P1JRB |                       **5.215169** * |      6 |   1.000000 |  1.533333 |                          3.401197 |
+| A165FHUTQU6L2Z |                       **5.215169** * |      6 |   1.000000 |  1.533333 |                          3.401197 |
+| A2RWJPXMBFGCF0 |                       **5.215169** * |      6 |   1.000000 |  1.533333 |                          3.401197 |
 
 
 ### item: A2PLGB52VCSYHG
-| productId      | counts | product_cf | hybrid_cf | product_cf_weighted_by_popularity | **hybrid_cf_weighted_by_popularity** |
-| -------------- | ------ | ---------- | --------- | --------------------------------- | ------------------------------------ |
-| A1CJPRUT6GHTGO |    	2 |   0.577350 |  0.570812 |                          1.329398 |                       **1.314343** * |
-| A2065HBMYDXJ1S |    	8 |   0.297746 |  0.375089 |                          0.981321 |                       **1.236231** * |
-| A2OS3TIVAKUAHG |    	2 |   0.495074 |  0.513218 |                          1.029477 |                       **1.067207** * |
-| A26CPEEWB2WKRE |    	2 |   0.450835 |  0.482251 |                          0.990585 |                       **1.059614** * |
-| A35NI8OWUTR1XB |    	2 |   0.408248 |  0.452440 |                          0.940026 |                       **1.041783** * |
+| productId      | **hybrid_cf_weighted_by_popularity** | counts | product_cf | hybrid_cf | product_cf_weighted_by_popularity |
+| -------------- | ------------------------------------ | ------ | ---------- | --------- | --------------------------------- |
+| A1CJPRUT6GHTGO |                       **1.314343** * |    	2 |   0.577350 |  0.570812 |                          1.329398 |
+| A2065HBMYDXJ1S |                       **1.236231** * |    	8 |   0.297746 |  0.375089 |                          0.981321 |
+| A2OS3TIVAKUAHG |                       **1.067207** * |    	2 |   0.495074 |  0.513218 |                          1.029477 |
+| A26CPEEWB2WKRE |                       **1.059614** * |    	2 |   0.450835 |  0.482251 |                          0.990585 |
+| A35NI8OWUTR1XB |                       **1.041783** * |    	2 |   0.408248 |  0.452440 |                          0.940026 |
 
 ### item: A2PUZMHH482FU7
-| productId      | counts | product_cf | hybrid_cf | product_cf_weighted_by_popularity | **hybrid_cf_weighted_by_popularity** |
-| -------------- | ------ | ---------- | --------- | --------------------------------- | ------------------------------------ |
-| A2GOEDQ35EBF1R |	    6 |   1.000000 |  1.533333 |                          3.401197 |                       **5.215169** * |
-| A7IB2KI9HJZW   |	    6 |   1.000000 |  1.533333 |                          3.401197 |                       **5.215169** * |
-| A1L0QECT7J93ZP |	   10 |   0.730297 |  1.177874 |                          2.856938 |                       **4.607872** * |
-| A30VYJQW4XWDQ6 |	   10 |   0.819920 |  1.240611 |                          2.982530 |                       **4.512828** * |
-| AMYTL79JMGQ6   |	    9 |   0.735215 |  1.181317 |                          2.730272 |                       **4.386905** * |
+| productId      | **hybrid_cf_weighted_by_popularity** | counts | product_cf | hybrid_cf | product_cf_weighted_by_popularity |
+| -------------- | ------------------------------------ | ------ | ---------- | --------- | --------------------------------- |
+| A2GOEDQ35EBF1R |                       **5.215169** * |	    6 |   1.000000 |  1.533333 |                          3.401197 |
+| A7IB2KI9HJZW   |                       **5.215169** * |	    6 |   1.000000 |  1.533333 |                          3.401197 |
+| A1L0QECT7J93ZP |                       **4.607872** * |	   10 |   0.730297 |  1.177874 |                          2.856938 |
+| A30VYJQW4XWDQ6 |                       **4.512828** * |	   10 |   0.819920 |  1.240611 |                          2.982530 |
+| AMYTL79JMGQ6   |                       **4.386905** * |	    9 |   0.735215 |  1.181317 |                          2.730272 |
 
 
 ### item: A2Q2V2KMKOQDI0
-| productId      | counts | product_cf | hybrid_cf | product_cf_weighted_by_popularity | **hybrid_cf_weighted_by_popularity** |
-| -------------- | ------ | ---------- | --------- | --------------------------------- | ------------------------------------ |
-| A2UERU5XY1CNCG |	    3 |   0.870388 |  0.942605 |	                      2.357055 |                       **2.552622** * |
-| A3Z0NDVCF8U8X  |	    4 |   0.710669 |  0.830802 |	                      2.128974 |                       **2.488859** * |
-| A3T15AD35VVLWC |	    5 |   0.550482 |  0.718671 |	                      1.771933 |                       **2.313312** * |
-| A3BTG5QT11003T |	    3 |   0.710669 |  0.830802 |	                      1.924527 |                       **2.249853** * |
-| A3C4692KE4G6TD |	    3 |   0.710669 |  0.830802 |	                      1.924527 |                       **2.249853** * |
+| productId      |  **hybrid_cf_weighted_by_popularity** | counts | product_cf | hybrid_cf | product_cf_weighted_by_popularity |
+| -------------- |  ------------------------------------ | ------ | ---------- | --------- | --------------------------------- |
+| A2UERU5XY1CNCG |                        **2.552622** * |	    3 |   0.870388 |  0.942605 |	                      2.357055 |
+| A3Z0NDVCF8U8X  |                        **2.488859** * |	    4 |   0.710669 |  0.830802 |	                      2.128974 |
+| A3T15AD35VVLWC |                        **2.313312** * |	    5 |   0.550482 |  0.718671 |	                      1.771933 |
+| A3BTG5QT11003T |                        **2.249853** * |	    3 |   0.710669 |  0.830802 |	                      1.924527 |
+| A3C4692KE4G6TD |                        **2.249853** * |	    3 |   0.710669 |  0.830802 |	                      1.924527 |
 
 > If you find any limitations or an inability to produce a recommendation for Q1 or Q2, please state the reasoning and if you would propose any alternatives to the goal of identifying the best product recommendation for user(s).
 
